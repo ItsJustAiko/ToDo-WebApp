@@ -89,8 +89,9 @@ body, html {
     cursor: pointer;
     font-family: GGSans-Bold;
     font-size: 14px;
-    padding: 10px;
+    font-weight: 10%;
+    padding: 9px;
     border-radius: 10px;
-    background-image: linear-gradient(to right, rgba(106, 4, 140), rgba(170, 0, 93), rgba(190, 0, 67));
+    background-image: linear-gradient(to right, rgba(190, 0, 75), rgba(190, 0, 67));
     color: white;
 }
