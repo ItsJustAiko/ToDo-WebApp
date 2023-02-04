@@ -1,0 +1,54 @@
+@font-face {
+    font-family: GGSans-Bold;
+    src: url("../fonts/ggsans-Bold.ttf");
+}
+
+body, html {
+    height: 100%;
+}
+  
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 25px;
+}
+
+.lists {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    margin: 0 100px 0 100px;
+    background-color: #00010F;
+    border-radius: 5px;
+    min-width: 250px;
+    min-height: 500px;
+}
+
+.list .header {
+    margin: 10px;
+}
+
+.list .title {
+    color: white;
+    font-family: GGSans-Bold;
+    font-size: 20px;
+}
+
+.list .separator {
+    border-bottom: 2px white;
+    margin-top: 5px;
+}
